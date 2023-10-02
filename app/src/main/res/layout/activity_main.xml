@@ -8,6 +8,18 @@
     android:background="@color/black">
 
     <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_social"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:srcCompat="@drawable/twiter" />
+
+    <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="50dp"
         android:layout_height="50dp"
